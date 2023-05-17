@@ -2,7 +2,7 @@ import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
 plugins {
     id("com.diffplug.spotless") version "6.11.0"
-    id("org.jetbrains.dokka") version "1.7.10"
+    id("org.jetbrains.dokka") version "1.8.10"
 }
 
 buildscript {
@@ -14,9 +14,9 @@ buildscript {
 
     dependencies {
         classpath(Dependencies.Kotlin.gradlePlugin)
-        classpath("com.android.tools.build:gradle:7.4.1")
+        classpath("com.android.tools.build:gradle:7.4.2")
         classpath("com.vanniktech:gradle-maven-publish-plugin:0.22.0")
-        classpath("org.jetbrains.dokka:dokka-gradle-plugin:1.7.10")
+        classpath("org.jetbrains.dokka:dokka-gradle-plugin:1.8.10")
         classpath(Dependencies.Shot.core)
     }
 }

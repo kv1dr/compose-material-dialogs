@@ -66,7 +66,7 @@ fun MaterialDialogScope.input(
     singleLine: Boolean = false,
     maxLines: Int = Int.MAX_VALUE,
     interactionSource: MutableInteractionSource = remember { MutableInteractionSource() },
-    colors: TextFieldColors = TextFieldDefaults.textFieldColors(),
+    colors: TextFieldColors = TextFieldDefaults.colors(),
     textFieldStyle: TextFieldStyle = TextFieldStyle.Filled,
     waitForPositiveButton: Boolean = true,
     errorMessage: String = "",
@@ -155,7 +155,7 @@ private fun TextFieldWithStyle(
     singleLine: Boolean = false,
     maxLines: Int = Int.MAX_VALUE,
     interactionSource: MutableInteractionSource = remember { MutableInteractionSource() },
-    colors: TextFieldColors = TextFieldDefaults.textFieldColors(),
+    colors: TextFieldColors = TextFieldDefaults.colors(),
     style: TextFieldStyle = TextFieldStyle.Filled
 ) {
     when (style) {

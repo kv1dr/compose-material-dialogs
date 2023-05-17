@@ -19,7 +19,7 @@ object Dependencies {
     }
 
     object Kotlin {
-        private const val version = "1.7.10"
+        private const val version = "1.8.21"
         const val gradlePlugin = "org.jetbrains.kotlin:kotlin-gradle-plugin:$version"
     }
 
@@ -45,11 +45,11 @@ object Dependencies {
 
         object Compose {
             const val version = "1.2.1"
-            const val compilerVersion = "1.3.0"
+            const val compilerVersion = "1.4.7"
 
             const val ui = "androidx.compose.ui:ui:$version"
             const val material = "androidx.compose.material:material:$version"
-            const val material3 = "androidx.compose.material3:material3:1.0.1"
+            const val material3 = "androidx.compose.material3:material3:1.1.0"
             const val materialIconsExtended =
                 "androidx.compose.material:material-icons-extended:$version"
             const val animation = "androidx.compose.animation:animation:$version"
